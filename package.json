@@ -1,0 +1,60 @@
+{
+  "name": "add-to-calendar-button-react",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=14.20.0"
+  },
+  "description": "Convenient React wrapper for the add to calendar button snippet, which lets you reliably create beautiful buttons, where people can add events to their calendars.",
+  "main": "dist/index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/add2cal/add-to-calendar-button-react.git"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "css",
+    "microsoft",
+    "apple",
+    "google",
+    "widget",
+    "generator",
+    "component",
+    "calendar",
+    "event",
+    "free",
+    "snippet",
+    "outlook",
+    "add-to-calendar",
+    "add-to-calendar-button",
+    "add-event"
+  ],
+  "author": {
+    "name": "Jens Kuerschner",
+    "url": "https://jenskuerschner.de/"
+  },
+  "license": "SEE LICENSE.txt",
+  "bugs": {
+    "url": "https://github.com/add2cal/add-to-calendar-button/issues"
+  },
+  "homepage": "https://add-to-calendar-button.com/",
+  "scripts": {
+    "eslint": "npx eslint .",
+    "eslint:fix": "npm run eslint -- --fix",
+    "prettier": "npx prettier . --check",
+    "prettier:fix": "npm run prettier -- --write",
+    "format": "npm run eslint:fix && npm run prettier:fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Error: no build script/process specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-commonjs": "^1.0.2",
+    "eslint-plugin-security": "^1.5.0",
+    "prettier": "2.7.1"
+  }
+}
