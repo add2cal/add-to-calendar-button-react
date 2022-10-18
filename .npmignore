@@ -17,6 +17,10 @@ src/
 assets/
 security.md
 package-lock.json
+.eslintrc.json
+.prettierignore
+.prettierrc.json
+.gitattributes
 *.min.css
 *.min.js
 *.map
