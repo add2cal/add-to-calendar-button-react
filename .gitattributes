@@ -1,2 +1,2 @@
 package-lock.json linguist-generated=true -diff
-dist/**/* linguist-generated=true -diff
+lib/**/* linguist-generated=true -diff
