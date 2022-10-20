@@ -41,7 +41,7 @@ And remember to [⭐ **star** this repository](#) in order to stay up-to-date an
 
 ## ✨ Features
 
-Simple and convenient integration of 1 or many buttons, configurable directly within the HTML code.
+Simple and convenient integration of 1 or many buttons, optimized to be used as React component.
 
 ### Supported Calendars
 
