@@ -2,7 +2,7 @@
 
 **If you believe you have discovered a security issue within this repository's latest release, please reach out directly via email:
 [security@add-to-calendar-pro.com](mailto:security@add-to-calendar-pro.com).**
-A [GitHub Security Advisory](https://github.com/add2cal/add-to-calendar-button-react/security/advisories) case will be opened for tracking the fix. 
+A [GitHub Security Advisory](https://github.com/add2cal/add-to-calendar-button-react/security/advisories) case will be opened for tracking the fix.
 In case the issue is affecting the parent ["add-to-calendar-button"](https://github.com/add2cal/add-to-calendar-button) repository, the case will be created there instead.
 
 Any support is highly appreciated and will be credited within the respective fix note.
