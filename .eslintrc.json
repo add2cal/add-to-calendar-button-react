@@ -27,6 +27,6 @@
     ]
   },
   "plugins": ["@typescript-eslint"],
-  "ignorePatterns": ["*.min.*", "lib/"],
+  "ignorePatterns": ["*.min.*", "dist/"],
   "rules": {}
 }

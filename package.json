@@ -5,7 +5,7 @@
     "node": ">=14.20.0"
   },
   "description": "Convenient React wrapper for the add to calendar button snippet, which lets you reliably create beautiful buttons, where people can add events to their calendars.",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/add2cal/add-to-calendar-button-react.git"
