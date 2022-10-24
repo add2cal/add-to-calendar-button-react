@@ -48,7 +48,7 @@
     "build": "webpack"
   },
   "dependencies": {
-    "add-to-calendar-button": "^1.18.1"
+    "add-to-calendar-button": "1.18.2"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
