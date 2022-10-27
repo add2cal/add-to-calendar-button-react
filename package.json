@@ -48,7 +48,7 @@
     "build": "webpack"
   },
   "dependencies": {
-    "add-to-calendar-button": "1.18.2"
+    "add-to-calendar-button": "1.18.5"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
@@ -64,7 +64,6 @@
     "eslint-plugin-security": "^1.5.0",
     "path": "^0.12.7",
     "prettier": "2.7.1",
-    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "terser-webpack-plugin": "^5.3.6",
@@ -72,7 +71,6 @@
     "webpack-cli": "^4.10.0"
   },
   "peerDependencies": {
-    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
