@@ -7,8 +7,8 @@ module.exports = {
   mode: 'production',
   entry: './src/AddToCalendarButtonComponent.jsx',
   output: {
-    path: path.resolve('lib'),
-    filename: 'AddToCalendarButtonComponent.js',
+    path: path.resolve('dist'),
+    filename: 'atcb.js',
     libraryTarget: 'commonjs2',
   },
   optimization: {
