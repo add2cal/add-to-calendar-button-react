@@ -60,7 +60,7 @@
     "@typescript-eslint/eslint-plugin": "^5.39.0",
     "@typescript-eslint/parser": "^5.45.0",
     "babel-loader": "^8.2.5",
-    "eslint": "^8.24.0",
+    "eslint": "^8.28.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-commonjs": "^1.0.2",
     "eslint-plugin-security": "^1.5.0",
