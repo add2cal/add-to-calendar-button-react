@@ -2,12 +2,24 @@
   "name": "add-to-calendar-button-react",
   "version": "0.0.1",
   "engines": {
-    "node": ">=14.20.0"
+    "node": ">=16.18.1",
+    "npm": ">=8.19.2"
   },
   "description": "Convenient React wrapper for the add to calendar button snippet, which lets you reliably create beautiful buttons, where people can add events to their calendars.",
-  "files": ["dist"],
-  "main": "./dist/atcb.js",
+  "type": "module",
+  "files": [
+    "dist",
+    "tests"
+  ],
+  "main": "./dist/atcb.umd.cjs",
   "module": "./dist/atcb.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/atcb.js",
+      "require": "./dist/atcb.umd.js"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/add2cal/add-to-calendar-button-react.git"
@@ -35,7 +47,7 @@
     "name": "Jens Kuerschner",
     "url": "https://jenskuerschner.de/"
   },
-  "license": "SEE LICENSE.txt",
+  "license": "ELv2",
   "bugs": {
     "url": "https://github.com/add2cal/add-to-calendar-button/issues"
   },
@@ -46,34 +58,37 @@
     "prettier": "npx prettier . --check",
     "prettier:fix": "npm run prettier -- --write",
     "format": "npm run eslint:fix && npm run prettier:fix",
-    "test": "echo \"Error: no test specified\" && exit 0",
-    "build": "webpack"
+    "dev": "vite",
+    "build": "vite build && tsc --emitDeclarationOnly",
+    "test": "vitest",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "add-to-calendar-button": "~1.18.8"
+    "add-to-calendar-button": "^1.18.8"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.5",
-    "@babel/plugin-proposal-function-bind": "^7.18.9",
-    "@babel/preset-env": "^7.20.2",
-    "@babel/preset-react": "^7.18.6",
+    "@testing-library/react": "^13.4.0",
+    "@types/jest": "^29.2.3",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.0",
-    "babel-loader": "^9.1.0",
+    "@vitejs/plugin-react": "^2.2.0",
     "eslint": "^8.28.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-commonjs": "^1.0.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-security": "^1.5.0",
-    "path": "^0.12.7",
-    "prettier": "2.8.0",
+    "jsdom": "^20.0.3",
+    "prettier": "^2.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "terser-webpack-plugin": "^5.3.6",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.0"
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3",
+    "vitest": "^0.25.3"
   },
   "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
   }
 }
