@@ -23,3 +23,5 @@ package-lock.json
 *.min.css
 *.min.js
 *.map
+vite.config.ts
+vitest.config.ts
