@@ -121,6 +121,7 @@ Use the componet inside your code and declare any options as props. You will get
 ### All options and hidden features
 
 Find all information about the available parameters and how to configure specific features at the parent package's [DOCS.md](https://github.com/add2cal/add-to-calendar-button/blob/main/DOCS.md).
+
 The major difference is that with the wrapper, you would use the `<AddToCalendarButton>` component instead of the `<add-to-calendar-button>` custom element.
 
 **Also mind that, different to the main package, with the React wrapper, you can (and need to) actually declare arrays (like with the options prop) as arrays and objects (like with multi-date setups) as objects!**
