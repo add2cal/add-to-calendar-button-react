@@ -7,7 +7,7 @@
 !.vscode/extensions.json
 *.code-workspace
 .history/
-
+coverage/
 
 
 # PLUS what else should not be on npm
