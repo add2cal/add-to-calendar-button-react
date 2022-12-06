@@ -10,18 +10,17 @@ test('is imported and mounted', () => {
   const component = render(<AddToCalendarButton {...defaultProps} />);
 
   expect(component).toBeTruthy();
-  expect(component.container.querySelector('.atcb-initialized')).toBeTruthy();
+  expect(component.container.querySelector('add-to-calendar-button')).toBeTruthy();
 });
 
 test('is rerendered based on prop', async () => {
-  const initialLabel = 'Initial Label';
-  const changedLabel = 'Changed Label';
+  const { rerender } = render(<AddToCalendarButton lightMode="dark" {...defaultProps} />);
 
-  const {rerender} = render(<AddToCalendarButton label={initialLabel} {...defaultProps} />);
+  expect(document.querySelector('.atcb-dark')).toBeTruthy();
+  expect(document.querySelector('.atcb-light')).toBeFalsy();
 
-  expect(screen.getByText(initialLabel)).toBeTruthy();
+  rerender(<AddToCalendarButton lightMode="light" {...defaultProps} />);
 
-  rerender(<AddToCalendarButton label={changedLabel} {...defaultProps} />);
-
-  //expect(screen.getByText(changedLabel)).toBeTruthy();
+  expect(document.querySelector('.atcb-light')).toBeTruthy();
+  expect(document.querySelector('.atcb-dark')).toBeFalsy();
 });
