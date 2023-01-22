@@ -1,8 +1,8 @@
 ![Add to Calendar Button React Wrapper](https://github.com/add2cal/add-to-calendar-button-react/blob/main/assets/readme-header.png?raw=true)
 
-![Version](https://img.shields.io/npm/v/add-to-calendar-button-react?style=for-the-badge)
-![Parent Script Version](https://img.shields.io/badge/Parent%20Script%20Version-v1.18.8-blue?style=for-the-badge)
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/add-to-calendar-button-react?style=for-the-badge)
+![Version](https://img.shields.io/npm/v/add-to-calendar-button-react?style=for-the-badge&label=Version)
+[![Parent Script Version](https://img.shields.io/badge/Parent%20Script%20Version-v2.0.0-blue?style=for-the-badge)](https://github.com/add2cal/add-to-calendar-button)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/add-to-calendar-button-react?style=for-the-badge)](https://www.npmjs.com/package/add-to-calendar-button-react)
 [![npm Installations](https://img.shields.io/npm/dt/add-to-calendar-button-react?label=npm%20Installations&style=for-the-badge)](https://www.npmjs.com/package/add-to-calendar-button-react)
 
 <br />
@@ -53,7 +53,7 @@ Simple and convenient integration of 1 or many buttons, optimized to be used as 
 ### Event Types
 
 - Timed and all-day events.
-- One-time, multi-date, recurring, or fluid.
+- One-time, multi-date, recurring.
 - Calendar Subscription.
 - Most robust time zone and daylight saving management (via our own [TimeZones iCal Library](https://github.com/add2cal/timezones-ical-library)).
 - Dynamic dates (like "today + 3").
@@ -120,8 +120,11 @@ Use the componet inside your code and declare any options as props. You will get
 
 ### All options and hidden features
 
-Find all information about the available parameters and how to configure specific features at the [github.com/add2cal/add-to-calendar-button/blob/main/DOCS.md](https://github.com/add2cal/add-to-calendar-button/blob/main/DOCS.md).
-**Mind that different to the main package, with the React wrapper, you can (and need to) actually declare arrays (like with the options prop) as arrays and objects (like with multi-date setups) as objects!**
+Find all information about the available props and how to configure specific features on the demo page at [add-to-calendar-button.com/en/configuration](https://add-to-calendar-button.com/en/configuration).
+
+Mind the difference to the web component! At this wrapper, you would use the `<AddToCalendarButton>` component instead of the `<add-to-calendar-button>` custom element.
+
+**Also mind that, different to the main package, with the React wrapper, you can actually declare arrays (like with the options prop) as arrays and objects (like with multi-date setups) as objects!**
 
 <br />
 
@@ -131,11 +134,12 @@ Find all information about the available parameters and how to configure specifi
 
 ## ⚡ Changelog
 
+- v2.0 : supporting latest major version of the parent script
 - v1.0 : initial release
 
-(Only referring to this wrapper repository and without any patches!)
+(Only referring to this wrapper repository and not including any patches!)
 
-Find all changes regarding the parent package at [github.com/add2cal/add-to-calendar-button/blob/main/CHANGELOG.md](https://github.com/add2cal/add-to-calendar-button/blob/main/CHANGELOG.md).
+Find all changes regarding the parent package at its [CHANGELOG.md](https://github.com/add2cal/add-to-calendar-button/blob/main/CHANGELOG.md).
 
 <br />
 

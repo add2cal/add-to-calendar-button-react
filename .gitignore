@@ -16,3 +16,6 @@
 
 # dist folder.
 /dist
+
+# coverage folder.
+/coverage

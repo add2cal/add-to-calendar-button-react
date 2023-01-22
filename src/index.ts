@@ -1,3 +1,3 @@
-import AddToCalendarButton from './AddToCalendarButton'
+import AddToCalendarButton from './AddToCalendarButton';
 
-export { AddToCalendarButton }
+export { AddToCalendarButton };
