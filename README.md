@@ -53,7 +53,7 @@ Simple and convenient integration of 1 or many buttons, optimized to be used as 
 ### Event Types
 
 - Timed and all-day events.
-- One-time, multi-date, recurring, or fluid.
+- One-time, multi-date, recurring.
 - Calendar Subscription.
 - Most robust time zone and daylight saving management (via our own [TimeZones iCal Library](https://github.com/add2cal/timezones-ical-library)).
 - Dynamic dates (like "today + 3").
