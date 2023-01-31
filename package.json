@@ -1,6 +1,6 @@
 {
   "name": "add-to-calendar-button-react",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "engines": {
     "node": ">=16.18.1",
     "npm": ">=8.19.2"
@@ -69,28 +69,28 @@
     "@types/jest": "^29.4.0",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
-    "@typescript-eslint/eslint-plugin": "^5.49.0",
-    "@typescript-eslint/parser": "^5.49.0",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
     "@vitejs/plugin-react": "^3.0.1",
-    "@vitest/coverage-c8": "^0.28.2",
-    "eslint": "^8.32.0",
+    "@vitest/coverage-c8": "^0.28.3",
+    "eslint": "^8.33.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-commonjs": "^1.0.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-security": "^1.6.0",
+    "eslint-plugin-security": "^1.7.0",
     "jsdom": "^21.1.0",
     "prettier": "^2.8.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "typescript": "^4.9.4",
+    "typescript": "^4.9.5",
     "vite": "^4.0.4",
-    "vitest": "^0.28.2"
+    "vitest": "^0.28.3"
   },
   "peerDependencies": {
     "react": ">=18.0.0",
     "react-dom": ">=18.0.0"
   },
   "dependencies": {
-    "add-to-calendar-button": "^2.0.2"
+    "add-to-calendar-button": "^2.1.0"
   }
 }
