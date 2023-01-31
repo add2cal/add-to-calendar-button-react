@@ -57,6 +57,8 @@ type AddToCalendarButtonProps = {
   bypassWebViewCheck?: boolean | string;
   debug?: boolean | string;
   blockInteraction?: boolean | string;
+  styleLight?: string;
+  styleDark?: string;
 };
 
 const AddToCalendarButton = (props: AddToCalendarButtonProps) => {
