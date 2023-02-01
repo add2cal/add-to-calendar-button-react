@@ -112,7 +112,7 @@ Use the componet inside your code and declare any options as props. You will get
 <AddToCalendarButton
   name="Test-Event"
   startDate="2023-05-22"
-  options=['Apple','Google','Yahoo','iCal']
+  options={['Apple','Google','Yahoo','iCal']}
 ></AddToCalendarButton>
 ```
 
