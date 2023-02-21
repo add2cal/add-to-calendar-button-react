@@ -1,7 +1,7 @@
 ![Add to Calendar Button React Wrapper](https://github.com/add2cal/add-to-calendar-button-react/blob/main/assets/readme-header.png?raw=true)
 
 ![Version](https://img.shields.io/npm/v/add-to-calendar-button-react?style=for-the-badge&label=Version)
-[![Parent Script Version](https://img.shields.io/badge/Parent%20Script%20Version-v2.1.1-blue?style=for-the-badge)](https://github.com/add2cal/add-to-calendar-button)
+[![Parent Script Version](https://img.shields.io/badge/Parent%20Script%20Version-v2.1.2-blue?style=for-the-badge)](https://github.com/add2cal/add-to-calendar-button)
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/add-to-calendar-button-react?style=for-the-badge)](https://www.npmjs.com/package/add-to-calendar-button-react)
 [![npm Installations](https://img.shields.io/npm/dt/add-to-calendar-button-react?label=npm%20Installations&style=for-the-badge)](https://www.npmjs.com/package/add-to-calendar-button-react)
 
@@ -120,7 +120,7 @@ Use the componet inside your code and declare any options as props. You will get
 
 ### All options and hidden features
 
-Find all information about the available props and how to configure specific features on the demo page at [add-to-calendar-button.com/en/configuration](https://add-to-calendar-button.com/en/configuration).
+Find all information about the available props and how to configure specific features on the demo page at [add-to-calendar-button.com/configuration](https://add-to-calendar-button.com/configuration).
 
 Mind the difference to the web component! At this wrapper, you would use the `<AddToCalendarButton>` component instead of the `<add-to-calendar-button>` custom element.
 
