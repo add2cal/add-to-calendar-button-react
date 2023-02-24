@@ -5,7 +5,7 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'jsdom',
-    silent: true,
+    silent: false,
     watch: false,
   },
 });
