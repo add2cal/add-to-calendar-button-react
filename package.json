@@ -1,6 +1,6 @@
 {
   "name": "add-to-calendar-button-react",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "engines": {
     "node": ">=16.18.1",
     "npm": ">=8.19.2"
@@ -17,7 +17,7 @@
   "exports": {
     ".": {
       "import": "./dist/atcb.js",
-      "require": "./dist/atcb.umd.js"
+      "require": "./dist/atcb.umd.cjs"
     }
   },
   "repository": {
