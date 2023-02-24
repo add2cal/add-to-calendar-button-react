@@ -59,6 +59,9 @@ type AddToCalendarButtonProps = {
   blockInteraction?: boolean | string;
   styleLight?: string;
   styleDark?: string;
+  disabled?: boolean | string;
+  hidden?: boolean | string;
+  pastDateHandling?: string;
 };
 
 const AddToCalendarButton = (props: AddToCalendarButtonProps) => {
