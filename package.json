@@ -17,7 +17,7 @@
   "exports": {
     ".": {
       "import": "./dist/atcb.js",
-      "require": "./dist/atcb.umd.js"
+      "require": "./dist/atcb.umd.cjs"
     }
   },
   "repository": {
