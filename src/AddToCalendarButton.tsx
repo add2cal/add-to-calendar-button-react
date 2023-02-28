@@ -16,6 +16,7 @@ type AddToCalendarButtonProps = {
   sequence?: number | string;
   uid?: string;
   organizer?: string;
+  attendee?: string;
   icsFile?: string;
   images?: string[] | string;
   recurrence?: string;
