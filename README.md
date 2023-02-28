@@ -1,7 +1,7 @@
 ![Add to Calendar Button React Wrapper](https://github.com/add2cal/add-to-calendar-button-react/blob/main/assets/readme-header.png?raw=true)
 
 ![Version](https://img.shields.io/npm/v/add-to-calendar-button-react?style=for-the-badge&label=Version)
-[![Parent Script Version](https://img.shields.io/badge/Parent%20Script%20Version-v2.1.4-blue?style=for-the-badge)](https://github.com/add2cal/add-to-calendar-button)
+[![Parent Script Version](https://img.shields.io/badge/Parent%20Script%20Version-v2.2.0-blue?style=for-the-badge)](https://github.com/add2cal/add-to-calendar-button)
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/add-to-calendar-button-react?style=for-the-badge)](https://www.npmjs.com/package/add-to-calendar-button-react)
 [![npm Installations](https://img.shields.io/npm/dt/add-to-calendar-button-react?label=npm%20Installations&style=for-the-badge)](https://www.npmjs.com/package/add-to-calendar-button-react)
 
@@ -134,6 +134,7 @@ Mind the difference to the web component! At this wrapper, you would use the `<A
 
 ## ⚡ Changelog
 
+- v2.2 : update to parent script v2.2; type fixes; "attendee" option; better lazy load of external css
 - v2.1 : update to parent script v2.1; type fixes
 - v2.0 : supporting latest major version of the parent script
 - v1.0 : initial release
