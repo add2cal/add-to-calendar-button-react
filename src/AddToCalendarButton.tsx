@@ -4,21 +4,24 @@ import 'add-to-calendar-button';
 type AddToCalendarButtonProps = {
   proKey?: string;
   name?: string;
-  dates?: {
-    name?: string;
-    description?: string;
-    startDate?: string;
-    startTime?: string;
-    endDate?: string;
-    endTime?: string;
-    timeZone?: string;
-    location?: string;
-    status?: 'TENTATIVE' | 'CONFIRMED' | 'CANCELLED' | string;
-    sequence?: bigint;
-    uid?: string;
-    organizer?: string;
-    attendee?: string;
-  }[] | object | string;
+  dates?:
+    | {
+        name?: string;
+        description?: string;
+        startDate?: string;
+        startTime?: string;
+        endDate?: string;
+        endTime?: string;
+        timeZone?: string;
+        location?: string;
+        status?: 'TENTATIVE' | 'CONFIRMED' | 'CANCELLED' | string;
+        sequence?: bigint;
+        uid?: string;
+        organizer?: string;
+        attendee?: string;
+      }[]
+    | object
+    | string;
   description?: string;
   startDate?: string;
   startTime?: string;
@@ -51,6 +54,7 @@ type AddToCalendarButtonProps = {
   listStyle?: 'dropdown' | 'dropdown-static' | 'overlay' | 'modal' | string;
   buttonStyle?: 'default' | '3d' | 'flat' | 'round' | 'neumorphism' | 'text' | 'date' | 'custom' | 'none' | string;
   trigger?: 'hover' | 'click' | string;
+  buttonsList?: boolean | string;
   hideIconButton?: boolean | string;
   hideIconList?: boolean | string;
   hideIconModal?: boolean | string;
