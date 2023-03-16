@@ -1,6 +1,6 @@
 {
   "name": "add-to-calendar-button-react",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "engines": {
     "node": ">=16.18.1",
     "npm": ">=8.19.2"
@@ -66,31 +66,31 @@
   },
   "devDependencies": {
     "@testing-library/react": "^14.0.0",
-    "@types/jest": "^29.4.0",
+    "@types/jest": "^29.5.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
-    "@typescript-eslint/eslint-plugin": "^5.54.0",
-    "@typescript-eslint/parser": "^5.54.0",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
     "@vitejs/plugin-react": "^3.1.0",
-    "@vitest/coverage-c8": "^0.29.2",
-    "eslint": "^8.35.0",
-    "eslint-config-prettier": "^8.6.0",
+    "@vitest/coverage-c8": "^0.29.3",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.7.0",
     "eslint-plugin-commonjs": "^1.0.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-security": "^1.7.1",
-    "jsdom": "^21.1.0",
+    "jsdom": "^21.1.1",
     "prettier": "^2.8.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "typescript": "^4.9.5",
-    "vite": "^4.1.4",
-    "vitest": "^0.29.2"
+    "typescript": "^5.0.2",
+    "vite": "^4.2.0",
+    "vitest": "^0.29.3"
   },
   "peerDependencies": {
     "react": ">=18.0.0",
     "react-dom": ">=18.0.0"
   },
   "dependencies": {
-    "add-to-calendar-button": "^2.2.2"
+    "add-to-calendar-button": "^2.2.4"
   }
 }
