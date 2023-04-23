@@ -1,7 +1,7 @@
 import React from 'react';
 import 'add-to-calendar-button';
 
-type AddToCalendarButtonProps = {
+export type AddToCalendarButtonProps = {
   proKey?: string;
   name?: string;
   dates?:
@@ -51,7 +51,7 @@ type AddToCalendarButtonProps = {
   subscribe?: boolean | string;
   options?: ('Apple' | 'Google' | 'iCal' | 'Microsoft365' | 'MicrosoftTeams' | 'Outlook.com' | 'Yahoo')[] | string[] | string;
   iCalFileName?: string;
-  listStyle?: 'dropdown' | 'dropdown-static' | 'overlay' | 'modal' | string;
+  listStyle?: 'dropdown' | 'dropdown-static' | 'dropup-static' | 'overlay' | 'modal' | string;
   buttonStyle?: 'default' | '3d' | 'flat' | 'round' | 'neumorphism' | 'text' | 'date' | 'custom' | 'none' | string;
   trigger?: 'hover' | 'click' | string;
   buttonsList?: boolean | string;

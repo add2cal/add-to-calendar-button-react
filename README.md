@@ -88,7 +88,7 @@ Simple and convenient integration of 1 or many buttons, optimized to be used as 
 
 ## 📦 Installation
 
-Import the package using the following npm command:
+Install the package using the following npm command:
 
 ```sh
 npm install add-to-calendar-button-react
@@ -117,6 +117,12 @@ Use the componet inside your code and declare any options as props. You will get
 ```
 
 <br /><br />
+
+If you need to use the type explicitely, you can import it via:
+
+```javascript
+import type { AddToCalendarButtonType } from 'add-to-calendar-button-react';
+```
 
 ### All options and hidden features
 
