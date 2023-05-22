@@ -62,6 +62,7 @@ export type AddToCalendarButtonProps = {
   hideTextLabelList?: boolean | string;
   hideBackground?: boolean | string;
   hideCheckmark?: boolean | string;
+  hideButton?: boolean | string;
   hideBranding?: boolean | string;
   size?: string;
   label?: string;
