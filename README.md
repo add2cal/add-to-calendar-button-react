@@ -31,8 +31,6 @@ In terms of system support, **all modern browsers** (Chrome, Edge, Firefox, Safa
 
 See [add-to-calendar-button.com](https://add-to-calendar-button.com/) for a live demo and more documentation.
 
-And remember to [⭐ **star** this repository](#) in order to stay up-to-date and save it for later! 🤗
-
 <br />
 
 ---
@@ -124,6 +122,8 @@ If you need to use the type explicitely, you can import it via:
 import type { AddToCalendarButtonType } from 'add-to-calendar-button-react';
 ```
 
+<br />
+
 ### All options and hidden features
 
 Find all information about the available props and how to configure specific features on the demo page at [add-to-calendar-button.com/configuration](https://add-to-calendar-button.com/configuration).
@@ -138,8 +138,20 @@ Mind the difference to the web component! At this wrapper, you would use the `<A
 
 <br />
 
+## 🤗 Support it!
+
+You like this project? It would be awesome if you would support it, so it lives on!
+
+- ⭐ [Star the repository](#) in order to stay up-to-date and save it for later!
+- 📣 Spread the word! On Twitter/X, Medium, Discord, Facebook, ...
+- ✍️ Leave a review at [ProductHunt](https://www.producthunt.com/products/add-to-calendar-button-generator/reviews).
+- 💌 Send us some positive feedback at the [discussion board](https://github.com/add2cal/add-to-calendar-button/discussions).
+
+<br />
+
 ## ⚡ Changelog
 
+- v2.3 : update to parent script v2.3; pastDateHandling, disabled option, static-dropup option, new languages
 - v2.2 : update to parent script v2.2; type fixes; "attendee" option; better lazy load of external css
 - v2.1 : update to parent script v2.1; type fixes
 - v2.0 : supporting latest major version of the parent script

@@ -70,7 +70,7 @@ export type AddToCalendarButtonProps = {
   customLabels?: object | string;
   customCss?: string;
   lightMode?: 'system' | 'dark' | 'light' | 'bodyScheme' | string;
-  language?: 'en' | 'de' | 'nl' | 'fr' | 'es' | 'pt' | 'tr' | 'zh' | 'ar' | 'hi' | 'pl' | 'ro' | 'id' | 'no' | 'fi' | 'sv' | 'cs' | 'ja' | 'it' | 'ko' | 'vi' | string;
+  language?: 'en' | 'de' | 'nl' | 'fa' | 'fr' | 'es' | 'et' | 'pt' | 'tr' | 'zh' | 'ar' | 'hi' | 'pl' | 'ro' | 'id' | 'no' | 'fi' | 'sv' | 'cs' | 'ja' | 'it' | 'ko' | 'vi' | string;
   hideRichData?: boolean | string;
   ty?: object | string;
   rsvp?: object | string;

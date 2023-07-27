@@ -1,6 +1,6 @@
 {
   "name": "add-to-calendar-button-react",
-  "version": "2.2.9",
+  "version": "2.3.0",
   "engines": {
     "node": ">=16.18.1",
     "npm": ">=8.19.2"
