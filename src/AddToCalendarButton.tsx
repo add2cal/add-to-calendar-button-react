@@ -77,6 +77,7 @@ export type AddToCalendarButtonProps = {
   rsvp?: object | string;
   bypassWebViewCheck?: boolean | string;
   debug?: boolean | string;
+  nonce?: string;
   blockInteraction?: boolean | string;
   styleLight?: string;
   styleDark?: string;
