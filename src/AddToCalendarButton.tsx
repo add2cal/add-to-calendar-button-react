@@ -54,6 +54,7 @@ export type AddToCalendarButtonProps = {
   listStyle?: 'dropdown' | 'dropdown-static' | 'dropup-static' | 'overlay' | 'modal' | string;
   buttonStyle?: 'default' | '3d' | 'flat' | 'round' | 'neumorphism' | 'text' | 'date' | 'custom' | 'none' | string;
   trigger?: 'hover' | 'click' | string;
+  inline?: boolean | string;
   buttonsList?: boolean | string;
   hideIconButton?: boolean | string;
   hideIconList?: boolean | string;
@@ -62,8 +63,8 @@ export type AddToCalendarButtonProps = {
   hideTextLabelList?: boolean | string;
   hideBackground?: boolean | string;
   hideCheckmark?: boolean | string;
-  hideButton?: boolean | string;
   hideBranding?: boolean | string;
+  hideButton?: boolean | string;
   size?: string;
   label?: string;
   inlineRsvp?: string;
@@ -76,6 +77,7 @@ export type AddToCalendarButtonProps = {
   rsvp?: object | string;
   bypassWebViewCheck?: boolean | string;
   debug?: boolean | string;
+  nonce?: string;
   blockInteraction?: boolean | string;
   styleLight?: string;
   styleDark?: string;
