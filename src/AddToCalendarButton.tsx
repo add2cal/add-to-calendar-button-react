@@ -84,6 +84,8 @@ export type AddToCalendarButtonProps = {
   disabled?: boolean | string;
   hidden?: boolean | string;
   pastDateHandling?: string;
+  proxy?: boolean | string;
+  forceOverlay?: boolean | string;
 };
 
 const AddToCalendarButton = (props: AddToCalendarButtonProps) => {
