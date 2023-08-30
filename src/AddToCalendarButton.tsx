@@ -77,13 +77,15 @@ export type AddToCalendarButtonProps = {
   rsvp?: object | string;
   bypassWebViewCheck?: boolean | string;
   debug?: boolean | string;
-  nonce?: string;
+  cspnonce?: string;
   blockInteraction?: boolean | string;
   styleLight?: string;
   styleDark?: string;
   disabled?: boolean | string;
   hidden?: boolean | string;
   pastDateHandling?: string;
+  proxy?: boolean | string;
+  forceOverlay?: boolean | string;
 };
 
 const AddToCalendarButton = (props: AddToCalendarButtonProps) => {
