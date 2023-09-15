@@ -1,6 +1,10 @@
 import React from 'react';
 import 'add-to-calendar-button';
 
+export type CustomLabelsObjectType = {
+  [key: string]: string | null;
+};
+
 export type AddToCalendarButtonProps = {
   proKey?: string;
   name?: string;
@@ -14,14 +18,12 @@ export type AddToCalendarButtonProps = {
         endTime?: string;
         timeZone?: string;
         location?: string;
-        status?: 'TENTATIVE' | 'CONFIRMED' | 'CANCELLED' | string;
-        sequence?: bigint;
+        status?: 'TENTATIVE' | 'CONFIRMED' | 'CANCELLED';
+        sequence?: number;
         uid?: string;
         organizer?: string;
         attendee?: string;
-      }[]
-    | object
-    | string;
+      }[];
   description?: string;
   startDate?: string;
   startTime?: string;
@@ -29,17 +31,17 @@ export type AddToCalendarButtonProps = {
   endTime?: string;
   timeZone?: string;
   location?: string;
-  status?: 'TENTATIVE' | 'CONFIRMED' | 'CANCELLED' | string;
-  sequence?: number | string;
+  status?: 'TENTATIVE' | 'CONFIRMED' | 'CANCELLED';
+  sequence?: number;
   uid?: string;
   organizer?: string;
   attendee?: string;
   icsFile?: string;
   images?: string[] | string;
   recurrence?: string;
-  recurrence_interval?: number | string;
+  recurrence_interval?: number;
   recurrence_until?: string;
-  recurrence_count?: string;
+  recurrence_count?: number;
   recurrence_byDay?: string;
   recurrence_byMonth?: string;
   recurrence_byMonthDay?: string;
@@ -48,44 +50,44 @@ export type AddToCalendarButtonProps = {
   created?: string;
   updated?: string;
   identifier?: string;
-  subscribe?: boolean | string;
-  options?: ('Apple' | 'Google' | 'iCal' | 'Microsoft365' | 'MicrosoftTeams' | 'Outlook.com' | 'Yahoo')[] | string[] | string;
+  subscribe?: boolean;
+  options?: ('Apple' | 'Google' | 'iCal' | 'Microsoft365' | 'MicrosoftTeams' | 'Outlook.com' | 'Yahoo')[];
   iCalFileName?: string;
-  listStyle?: 'dropdown' | 'dropdown-static' | 'dropup-static' | 'overlay' | 'modal' | string;
-  buttonStyle?: 'default' | '3d' | 'flat' | 'round' | 'neumorphism' | 'text' | 'date' | 'custom' | 'none' | string;
-  trigger?: 'hover' | 'click' | string;
-  inline?: boolean | string;
-  buttonsList?: boolean | string;
-  hideIconButton?: boolean | string;
-  hideIconList?: boolean | string;
-  hideIconModal?: boolean | string;
-  hideTextLabelButton?: boolean | string;
-  hideTextLabelList?: boolean | string;
-  hideBackground?: boolean | string;
-  hideCheckmark?: boolean | string;
-  hideBranding?: boolean | string;
-  hideButton?: boolean | string;
+  listStyle?: 'dropdown' | 'dropdown-static' | 'dropup-static' | 'overlay' | 'modal';
+  buttonStyle?: 'default' | '3d' | 'flat' | 'round' | 'neumorphism' | 'text' | 'date' | 'custom' | 'none';
+  trigger?: 'hover' | 'click';
+  inline?: boolean;
+  buttonsList?: boolean;
+  hideIconButton?: boolean;
+  hideIconList?: boolean;
+  hideIconModal?: boolean;
+  hideTextLabelButton?: boolean;
+  hideTextLabelList?: boolean;
+  hideBackground?: boolean;
+  hideCheckmark?: boolean;
+  hideBranding?: boolean;
+  hideButton?: boolean;
   size?: string;
   label?: string;
   inlineRsvp?: string;
-  customLabels?: object | string;
+  customLabels?: CustomLabelsObjectType;
   customCss?: string;
-  lightMode?: 'system' | 'dark' | 'light' | 'bodyScheme' | string;
-  language?: 'en' | 'de' | 'nl' | 'fa' | 'fr' | 'es' | 'et' | 'pt' | 'tr' | 'zh' | 'ar' | 'hi' | 'pl' | 'ro' | 'id' | 'no' | 'fi' | 'sv' | 'cs' | 'ja' | 'it' | 'ko' | 'vi' | string;
-  hideRichData?: boolean | string;
-  ty?: object | string;
-  rsvp?: object | string;
-  bypassWebViewCheck?: boolean | string;
-  debug?: boolean | string;
+  lightMode?: 'system' | 'dark' | 'light' | 'bodyScheme';
+  language?: 'en' | 'de' | 'nl' | 'fa' | 'fr' | 'es' | 'et' | 'pt' | 'tr' | 'zh' | 'ar' | 'hi' | 'pl' | 'ro' | 'id' | 'no' | 'fi' | 'sv' | 'cs' | 'ja' | 'it' | 'ko' | 'vi';
+  hideRichData?: boolean;
+  ty?: object;
+  rsvp?: object;
+  bypassWebViewCheck?: boolean;
+  debug?: boolean;
   cspnonce?: string;
-  blockInteraction?: boolean | string;
+  blockInteraction?: boolean;
   styleLight?: string;
   styleDark?: string;
-  disabled?: boolean | string;
-  hidden?: boolean | string;
+  disabled?: boolean;
+  hidden?: boolean;
   pastDateHandling?: string;
-  proxy?: boolean | string;
-  forceOverlay?: boolean | string;
+  proxy?: boolean;
+  forceOverlay?: boolean;
 };
 
 const AddToCalendarButton = (props: AddToCalendarButtonProps) => {
