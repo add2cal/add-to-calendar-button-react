@@ -8,22 +8,21 @@ export type CustomLabelsObjectType = {
 export type AddToCalendarButtonProps = {
   proKey?: string;
   name?: string;
-  dates?:
-    | {
-        name?: string;
-        description?: string;
-        startDate?: string;
-        startTime?: string;
-        endDate?: string;
-        endTime?: string;
-        timeZone?: string;
-        location?: string;
-        status?: 'TENTATIVE' | 'CONFIRMED' | 'CANCELLED';
-        sequence?: number;
-        uid?: string;
-        organizer?: string;
-        attendee?: string;
-      }[];
+  dates?: {
+    name?: string;
+    description?: string;
+    startDate?: string;
+    startTime?: string;
+    endDate?: string;
+    endTime?: string;
+    timeZone?: string;
+    location?: string;
+    status?: 'TENTATIVE' | 'CONFIRMED' | 'CANCELLED';
+    sequence?: number;
+    uid?: string;
+    organizer?: string;
+    attendee?: string;
+  }[];
   description?: string;
   startDate?: string;
   startTime?: string;
