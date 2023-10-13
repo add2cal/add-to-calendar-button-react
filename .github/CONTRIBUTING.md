@@ -77,7 +77,7 @@ Adhering to the following process is the best way to get your work included in t
 
     ```bash
     # Clone your fork of the repo
-    git clone https://github.com/<your-username>/add-to-calendar-button-react.git
+    git clone https://github.com/add2cal/add-to-calendar-button-react.git
     # Navigate to the newly cloned directory
     cd add-to-calendar-button-react
     # Assign the original repo to a remote called "upstream"
