@@ -87,6 +87,7 @@ export type AddToCalendarButtonProps = {
   pastDateHandling?: string;
   proxy?: boolean;
   forceOverlay?: boolean;
+  instance?: number;
 };
 
 const AddToCalendarButton = (props: AddToCalendarButtonProps) => {
