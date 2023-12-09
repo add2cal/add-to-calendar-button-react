@@ -111,6 +111,7 @@ Use the componet inside your code and declare any options as props. You will get
   name="Test-Event"
   startDate="2023-05-22"
   options={['Apple','Google','Yahoo','iCal']}
+  timeZone="America/Los_Angeles"
 ></AddToCalendarButton>
 ```
 
