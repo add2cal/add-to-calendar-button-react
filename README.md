@@ -1,7 +1,7 @@
 ![Add to Calendar Button React Wrapper](https://github.com/add2cal/add-to-calendar-button-react/blob/main/assets/readme-header.png?raw=true)
 
 ![Version](https://img.shields.io/npm/v/add-to-calendar-button-react?style=for-the-badge&label=Version)
-[![Parent Script Version](https://img.shields.io/badge/Parent%20Script%20Version-v2.4.3-blue?style=for-the-badge)](https://github.com/add2cal/add-to-calendar-button)
+[![Parent Script Version](https://img.shields.io/badge/Parent%20Script%20Version-v2.5.0-blue?style=for-the-badge)](https://github.com/add2cal/add-to-calendar-button)
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/add-to-calendar-button-react?style=for-the-badge)](https://www.npmjs.com/package/add-to-calendar-button-react)
 [![npm Installations](https://img.shields.io/npm/dt/add-to-calendar-button-react?label=npm%20Installations&style=for-the-badge)](https://www.npmjs.com/package/add-to-calendar-button-react)
 
@@ -84,6 +84,22 @@ Simple and convenient integration of 1 or many buttons, optimized to be used as 
 
 <br />
 
+## 🚀 Go PRO
+
+- ics file generation and hosting for better compatibility.
+- RSVP, incl. automatic updates sent to attendees, GDPR features, and more.
+- More customization - all no-code.
+- API, webhooks, and more technical toys.
+- Share events among all kinds of channels - email, social media, ...
+
+Check the details at [add-to-calendar-pro.com](https://add-to-calendar-pro.com)!
+
+<br />
+
+---
+
+<br />
+
 ## 📦 Installation
 
 Install the package using the following npm command:
@@ -106,6 +122,8 @@ import { AddToCalendarButton } from 'add-to-calendar-button-react';
 
 Use the componet inside your code and declare any options as props. You will get warned about any type misconfiguration.
 
+Calendar type options and time zone information are not required, but recommended.
+
 ```javascript
 <AddToCalendarButton
   name="Test-Event"
@@ -121,6 +139,14 @@ If you need to use the type explicitely, you can import it via:
 
 ```javascript
 import type { AddToCalendarButtonType } from 'add-to-calendar-button-react';
+```
+
+<br /><br />
+
+When using the PRO version, you can keep it even shorter, as you would only need the proKey.
+
+```javascript
+<AddToCalendarButton proKey="prokey-of-your-event"></AddToCalendarButton>
 ```
 
 <br />
