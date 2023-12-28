@@ -63,7 +63,8 @@
     "build": "vite build && tsc --emitDeclarationOnly",
     "test": "vitest",
     "test:coverage": "vitest --coverage",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
   },
   "devDependencies": {
     "@testing-library/react": "^14.1.2",
