@@ -1,3 +1,5 @@
+import type { AddToCalendarButton } from './AddToCalendarButton';
+
 export {};
 
 declare global {
