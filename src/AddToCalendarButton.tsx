@@ -90,6 +90,7 @@ export type AddToCalendarButtonProps = {
   proxy?: boolean;
   forceOverlay?: boolean;
   instance?: number;
+  dev?: boolean;
 };
 
 const AddToCalendarButton = (props: AddToCalendarButtonProps) => {
