@@ -16,13 +16,17 @@ test('is imported and mounted', () => {
 test('is rerendered based on prop', async () => {
   const { rerender } = render(<AddToCalendarButton debug lightMode="dark" {...(defaultProps as AddToCalendarButtonType)} />);
 
-  expect(document.querySelector('.atcb-dark')).toBeTruthy();
-  expect(document.querySelector('.atcb-light')).toBeFalsy();
+  await waitFor(() => {
+    expect(document.querySelector('.atcb-dark')).toBeTruthy();
+    expect(document.querySelector('.atcb-light')).toBeFalsy();
+  });
 
   rerender(<AddToCalendarButton lightMode="light" {...(defaultProps as AddToCalendarButtonType)} />);
 
-  expect(document.querySelector('.atcb-light')).toBeTruthy();
-  expect(document.querySelector('.atcb-dark')).toBeFalsy();
+  await waitFor(() => {
+    expect(document.querySelector('.atcb-dark')).toBeFalsy();
+    expect(document.querySelector('.atcb-light')).toBeTruthy();
+  });
 });
 
 test('is rendered via atcb_action', async () => {
