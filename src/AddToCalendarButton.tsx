@@ -4,7 +4,7 @@ import type { AddToCalendarButtonType } from 'add-to-calendar-button';
 
 const AddToCalendarButton = (props: AddToCalendarButtonType) => {
   const config = React.useMemo(() => {
-    const outputData = {};
+    const outputData: Partial<AddToCalendarButtonType> = {};
     for (const [key, value] of Object.entries(props)) {
       let newVal = value;
       if (typeof value !== 'string' && typeof value !== 'boolean') {
