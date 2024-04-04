@@ -1,6 +1,6 @@
 {
   "name": "add-to-calendar-button-react",
-  "version": "2.6.9",
+  "version": "2.6.10",
   "engines": {
     "node": ">=18.17.0",
     "npm": ">=9.6.7"
@@ -69,10 +69,10 @@
   "devDependencies": {
     "@testing-library/react": "^14.2.2",
     "@types/jest": "^29.5.12",
-    "@types/react": "^18.2.67",
-    "@types/react-dom": "^18.2.22",
-    "@typescript-eslint/eslint-plugin": "^7.3.1",
-    "@typescript-eslint/parser": "^7.3.1",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24",
+    "@typescript-eslint/eslint-plugin": "^7.5.0",
+    "@typescript-eslint/parser": "^7.5.0",
     "@vitejs/plugin-react": "^4.2.1",
     "@vitest/coverage-v8": "^1.4.0",
     "eslint": "^8.57.0",
@@ -84,8 +84,8 @@
     "prettier": "^3.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "typescript": "^5.4.2",
-    "vite": "^5.2.2",
+    "typescript": "^5.4.3",
+    "vite": "^5.2.8",
     "vitest": "^1.4.0"
   },
   "peerDependencies": {
@@ -93,6 +93,6 @@
     "react-dom": ">=18.0.0"
   },
   "dependencies": {
-    "add-to-calendar-button": "^2.6.9"
+    "add-to-calendar-button": "^2.6.10"
   }
 }
