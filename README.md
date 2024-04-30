@@ -1,7 +1,7 @@
 ![Add to Calendar Button React Wrapper](https://github.com/add2cal/add-to-calendar-button-react/blob/main/assets/readme-header.png?raw=true)
 
 ![Version](https://img.shields.io/npm/v/add-to-calendar-button-react?style=for-the-badge&label=Version)
-[![Parent Script Version](https://img.shields.io/badge/Parent%20Script%20Version-v2.6.13-blue?style=for-the-badge)](https://github.com/add2cal/add-to-calendar-button)
+[![Parent Script Version](https://img.shields.io/badge/Parent%20Script%20Version-v2.6.14-blue?style=for-the-badge)](https://github.com/add2cal/add-to-calendar-button)
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/add-to-calendar-button-react?style=for-the-badge)](https://www.npmjs.com/package/add-to-calendar-button-react)
 [![npm Installations](https://img.shields.io/npm/dt/add-to-calendar-button-react?label=npm%20Installations&style=for-the-badge)](https://www.npmjs.com/package/add-to-calendar-button-react)
 
@@ -119,6 +119,9 @@ Import the component wherever you want to use it:
 ```javascript
 import { AddToCalendarButton } from 'add-to-calendar-button-react';
 ```
+
+**Mind that this package only works on the client side!**
+You should mark the component where you use it as `use client` and/or make use of dynamic imports, where you set "ssr" to false (e.g. with Next.js).
 
 Use the componet inside your code and declare any options as props. You will get warned about any type misconfiguration.
 
