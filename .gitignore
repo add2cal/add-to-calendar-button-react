@@ -3,7 +3,6 @@
 
 # dist folder.
 /dist
-demo/dist
 
 # tmp testing files.
 testing.html
