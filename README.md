@@ -181,6 +181,7 @@ You like this project? It would be awesome if you would support it, so it lives 
 
 ## ⚡ Changelog
 
+- v2.8 : update to parent script v2.8; Ukranian localization, time zone upgrade
 - v2.7 : update to parent script v2.7; RSVP open seats, fixes
 - v2.6 : update to parent script v2.6; useUserTZ, css ::part
 - v2.5 : update to parent script v2.5; Introducing PRO, default branding, customLabels update, optionsMobile, dropdown for date style
