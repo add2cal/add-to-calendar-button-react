@@ -41,7 +41,7 @@ describe('props value validation', () => {
       render(<AddToCalendarButton {...(defaultProps as AddToCalendarButtonType)} debug startTime="14:00" endDate="2055-02-25" endTime="15:00" timeZone="Mars/FantasyCity" />);
     });
 
-    expect(spy).toHaveBeenCalledTimes(2); // 2 times, because the timeZones lib will also throw an error here.
+    expect(spy).toHaveBeenCalledTimes(3); // 2 times, because the timeZones lib will also throw an error (2x) here.
     expect(Array.isArray(spy.mock.lastCall) ? spy.mock.lastCall.join() : '').toContain('invalid time zone given');
   });
 });
