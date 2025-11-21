@@ -1,6 +1,6 @@
 {
   "name": "add-to-calendar-button-react",
-  "version": "2.13.2",
+  "version": "2.13.3",
   "engines": {
     "node": ">=18.17.0",
     "npm": ">=9.6.7"
@@ -85,7 +85,7 @@
     "react-dom": "18.3.1",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.46.4",
-    "vite": "^7.2.2",
+    "vite": "^7.2.4",
     "vitest": "^3.2.4"
   },
   "peerDependencies": {
@@ -93,6 +93,6 @@
     "react-dom": ">=18.0.0"
   },
   "dependencies": {
-    "add-to-calendar-button": "^2.13.2"
+    "add-to-calendar-button": "^2.13.3"
   }
 }
