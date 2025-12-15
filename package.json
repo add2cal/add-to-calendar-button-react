@@ -1,6 +1,6 @@
 {
   "name": "add-to-calendar-button-react",
-  "version": "2.13.3",
+  "version": "2.13.4",
   "engines": {
     "node": ">=18.17.0",
     "npm": ">=9.6.7"
@@ -46,7 +46,7 @@
   ],
   "author": {
     "name": "Jens Kuerschner",
-    "url": "https://jenskuerschner.de/"
+    "url": "https://jekuer.com/"
   },
   "license": "ELv2",
   "bugs": {
@@ -93,6 +93,6 @@
     "react-dom": ">=18.0.0"
   },
   "dependencies": {
-    "add-to-calendar-button": "^2.13.3"
+    "add-to-calendar-button": "^2.13.4"
   }
 }
