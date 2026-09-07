@@ -5,7 +5,7 @@
     "node": ">=18.17.0",
     "npm": ">=9.6.7"
   },
-  "description": "Convenient React wrapper for the add to calendar button snippet, which lets you reliably create beautiful buttons, where people can add events to their calendars.",
+  "description": "Deprecated React wrapper for the add to calendar button snippet, which lets you reliably create beautiful buttons, where people can add events to their calendars.",
   "type": "module",
   "files": [
     "dist",

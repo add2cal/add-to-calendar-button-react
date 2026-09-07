@@ -1,7 +1,7 @@
 ![Add to Calendar Button React Wrapper](https://github.com/add2cal/add-to-calendar-button-react/blob/main/assets/readme-header.png?raw=true)
 
 ![Version](https://img.shields.io/npm/v/add-to-calendar-button-react?style=for-the-badge&label=Version)
-[![Parent Script Version](https://img.shields.io/badge/Parent%20Script%20Version-v2.14.0-blue?style=for-the-badge)](https://github.com/add2cal/add-to-calendar-button)
+[![Parent Script Version](https://img.shields.io/badge/Parent%20Script%20Version-v2.15.0-blue?style=for-the-badge)](https://github.com/add2cal/add-to-calendar-button)
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/add-to-calendar-button-react?style=for-the-badge)](https://www.npmjs.com/package/add-to-calendar-button-react)
 [![npm Installations](https://img.shields.io/npm/dt/add-to-calendar-button-react?label=npm%20Installations&style=for-the-badge)](https://www.npmjs.com/package/add-to-calendar-button-react)
 
@@ -10,6 +10,10 @@
 # The Add to Calendar Button - optimized for React
 
 This is a wrapper repository for the popular [Add to Calendar Button](https://github.com/add2cal/add-to-calendar-button), making it even more convenient, to create beautiful buttons in React, where people can add events to their calendars.
+
+> [!CAUTION]
+> This repository got deprecated!
+> Latest React and Next version can now easily directly work with the main repository. Get it via [npm i add-to-calendar-button](https://github.com/add2cal/add-to-calendar-button).
 
 <br /><br />
 
@@ -181,6 +185,7 @@ You like this project? It would be awesome if you would support it, so it lives 
 
 ## ⚡ Changelog
 
+- v2.15: Styling fixes
 - v2.14 : Dropping atcb_decorate_data_recurrence export; various bug fixes
 - v2.13 : Hebrew language
 - v2.12 : ⚠️ Breaking: Date buttons now show the next possible date in multi-date and recurrence cases. Recurrence UNTIL support. Mitigating edge cases where ics files with unsupported time zones loaded into Google calendar. Always block background scroll on modals open
@@ -204,18 +209,6 @@ Find all changes regarding the parent package at its [CHANGELOG.md](https://gith
 
 <br />
 
-## 🙌 Contributing
-
-Anyone is welcome to contribute, but mind the [guidelines](.github/CONTRIBUTING.md):
-
-- [Bug reports](.github/CONTRIBUTING.md#bugs)
-- [Feature requests](.github/CONTRIBUTING.md#features)
-- [Pull requests](.github/CONTRIBUTING.md#pull-requests)
-
-**IMPORTANT NOTE:** Run `npm install` and `npm run format` before you create any pull request!
-
-<br />
-
 ## 📃 Copyright and License
 
 Copyright (c) [Jens Kuerschner](https://jenskuerschner.de).
@@ -231,17 +224,5 @@ Speaking **about the license**:
 We love it, because it is so simple. Have a look!
 You are basically free to do anything unless you are not offering the tool itself as a product or service; or want to remove copyright and license stuff.
 In doubt, simply ask and we find a way. :)
-
-<br />
-
----
-
-<br />
-
-## 💜 Kudos go to
-
-...all contributors and people involved! Thanks a lot!
-
-Find more details at [the respective parent repo section here...](https://github.com/add2cal/add-to-calendar-button#-kudos-go-to)
 
 <br />
